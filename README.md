@@ -1,5 +1,15 @@
 # elbrus-phase2-npmgo
 
+## Черновик проекта со всеми зависимости, настройками, БД
 
-npm i cookie-parser bcrypt session-file-store express-session react react-dom express dotenv
-npm i -D @babel/preset-react @babel/register  morgan nodemon
+**Создание базы данных**
+
+```
+export DB=postgres://user:password@localhost:5432/namedb
+```
+
+**Подключение тестов JEST**
+
+```shell
+npm i -D jest babel-jest
+```
